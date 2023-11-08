@@ -1,3 +1,3 @@
-/* [Programmers] 59038. 최솟값 구하기 */
+/* [Programmers] 59406. 동물 수 구하기 */
 
 SELECT COUNT(*) FROM ANIMAL_INS;
