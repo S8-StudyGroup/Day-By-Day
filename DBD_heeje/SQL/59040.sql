@@ -1,0 +1,7 @@
+/* [Programmers] 59040. 고양이와 개는 몇 마리 있을까 */
+
+SELECT ANIMAL_TYPE, COUNT(*) as count
+FROM ANIMAL_INS
+WHERE ANIMAL_TYPE = "Cat" or ANIMAL_TYPE = "Dog"
+GROUP BY ANIMAL_TYPE
+ORDER BY ANIMAL_TYPE asc;
