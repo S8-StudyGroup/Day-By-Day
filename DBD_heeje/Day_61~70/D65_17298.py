@@ -1,6 +1,6 @@
 # [Programmers] 17298. 오큰수
-# 실행 시간 : 00 ms
-# 메모리 : 00 KB
+# 실행 시간 : 580 ms
+# 메모리 : 248148 KB
 
 import sys
 input = sys.stdin.readline
@@ -15,4 +15,4 @@ for i in range(N):
         answer[stack.pop()] = numbers[i]
     stack.append(i)
 
-sys.stdout.write(*answer)
+print(*answer)
